@@ -1,4 +1,3 @@
-import React from "react";
 import "./CountriesListShimmer.css";
 export default function CountriesListShimmer() {
   return (

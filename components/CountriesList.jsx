@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import CountryCard from "./CountryCard";
-import CountriesListShimmer from "./countriesListShimmer";
+import CountriesListShimmer from "./CountriesListShimmer";
 
 export default function CountriesList({ query }) {
   const [countriesData, setCountriesData] = useState([]);

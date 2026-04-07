@@ -1,5 +1,4 @@
 export default function SearchBar({ setQuery }) {
-  //   console.log("setQuery:", setQuery);
   return (
     <div className="search-container">
       <i className="fa-solid fa-magnifying-glass"></i>

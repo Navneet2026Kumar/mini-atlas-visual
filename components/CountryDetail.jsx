@@ -1,8 +1,6 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./CountryDetail.css";
-import { Link, useLocation } from "react-router";
-import { useParams } from "react-router";
+import { Link, useLocation, useParams } from "react-router";
 import { useTheme } from "../hooks/useTheme";
 
 export default function CountryDetail() {
